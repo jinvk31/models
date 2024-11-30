@@ -1,0 +1,3 @@
+SLURM_NTASKS: 24
+CUTOFF test completed
+Results written to cutoff.out

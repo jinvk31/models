@@ -1,0 +1,61 @@
+SLURM_NTASKS: 24
+entering Co/fcc ..
+volume factor: 0.95, volume: 10.257489849515471
+
+volume factor: 0.9666666666666667, volume: 10.437445811787669
+
+volume factor: 0.9833333333333333, volume: 10.61740177405987
+
+volume factor: 1.0, volume: 10.79735773633207
+
+volume factor: 1.0166666666666666, volume: 10.97731369860427
+
+volume factor: 1.0333333333333334, volume: 11.157269660876477
+
+volume factor: 1.05, volume: 11.337225623148676
+
+entering Co/hcp ..
+volume factor: 0.95, volume: 20.611467002365067
+
+volume factor: 0.9666666666666667, volume: 20.9730716866171
+
+volume factor: 0.9833333333333333, volume: 21.33467637086913
+
+volume factor: 1.0, volume: 21.696281055121137
+
+volume factor: 1.0166666666666666, volume: 22.057885739373145
+
+volume factor: 1.0333333333333334, volume: 22.419490423625163
+
+volume factor: 1.05, volume: 22.781095107877196
+
+entering Pt/fcc ..
+volume factor: 0.95, volume: 14.722830909414682
+
+volume factor: 0.9666666666666667, volume: 14.981126188527215
+
+volume factor: 0.9833333333333333, volume: 15.239421467639755
+
+volume factor: 1.0, volume: 15.497716746752298
+
+volume factor: 1.0166666666666666, volume: 15.756012025864829
+
+volume factor: 1.0333333333333334, volume: 16.014307304977372
+
+volume factor: 1.05, volume: 16.272602584089913
+
+entering Pt/hcp ..
+volume factor: 0.95, volume: 29.73904916183416
+
+volume factor: 0.9666666666666667, volume: 30.26078686642773
+
+volume factor: 0.9833333333333333, volume: 30.782524571021327
+
+volume factor: 1.0, volume: 31.304262275614892
+
+volume factor: 1.0166666666666666, volume: 31.825999980208472
+
+volume factor: 1.0333333333333334, volume: 32.347737684802055
+
+volume factor: 1.05, volume: 32.86947538939567
+

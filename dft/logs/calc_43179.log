@@ -1,0 +1,9 @@
+SLURM_NTASKS: 24
+entering Co/fcc ..
+/var/spool/slurm/job43179/slurm_script: line 27: echoratio,volume,energy: command not found
+entering Co/hcp ..
+/var/spool/slurm/job43179/slurm_script: line 27: echoratio,volume,energy: command not found
+entering Pt/fcc ..
+/var/spool/slurm/job43179/slurm_script: line 27: echoratio,volume,energy: command not found
+entering Pt/hcp ..
+/var/spool/slurm/job43179/slurm_script: line 27: echoratio,volume,energy: command not found

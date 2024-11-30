@@ -1,0 +1,61 @@
+SLURM_NTASKS: 24
+entering Co/fcc ..
+Traceback (most recent call last):
+  File "/home/jinvk/lattice/dft/Co/fcc/../../../eos.py", line 20, in <module>
+    main()
+  File "/home/jinvk/lattice/dft/Co/fcc/../../../eos.py", line 17, in main
+    write(os.path.join("eos",f"{str}(int(factor*100))", "POSCAR"), scaled, format="vasp")
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 628, in write
+    return _write(filename, fd, format, io, images,
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/parallel.py", line 244, in new_func
+    return func(*args, **kwargs)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 661, in _write
+    fd = open_with_compression(filename, mode)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 551, in open_with_compression
+    return open(filename, mode)
+FileNotFoundError: [Errno 2] No such file or directory: "eos/<class 'str'>(int(factor*100))/POSCAR"
+entering Co/hcp ..
+Traceback (most recent call last):
+  File "/home/jinvk/lattice/dft/Co/hcp/../../../eos.py", line 20, in <module>
+    main()
+  File "/home/jinvk/lattice/dft/Co/hcp/../../../eos.py", line 17, in main
+    write(os.path.join("eos",f"{str}(int(factor*100))", "POSCAR"), scaled, format="vasp")
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 628, in write
+    return _write(filename, fd, format, io, images,
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/parallel.py", line 244, in new_func
+    return func(*args, **kwargs)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 661, in _write
+    fd = open_with_compression(filename, mode)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 551, in open_with_compression
+    return open(filename, mode)
+FileNotFoundError: [Errno 2] No such file or directory: "eos/<class 'str'>(int(factor*100))/POSCAR"
+entering Pt/fcc ..
+Traceback (most recent call last):
+  File "/home/jinvk/lattice/dft/Pt/fcc/../../../eos.py", line 20, in <module>
+    main()
+  File "/home/jinvk/lattice/dft/Pt/fcc/../../../eos.py", line 17, in main
+    write(os.path.join("eos",f"{str}(int(factor*100))", "POSCAR"), scaled, format="vasp")
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 628, in write
+    return _write(filename, fd, format, io, images,
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/parallel.py", line 244, in new_func
+    return func(*args, **kwargs)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 661, in _write
+    fd = open_with_compression(filename, mode)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 551, in open_with_compression
+    return open(filename, mode)
+FileNotFoundError: [Errno 2] No such file or directory: "eos/<class 'str'>(int(factor*100))/POSCAR"
+entering Pt/hcp ..
+Traceback (most recent call last):
+  File "/home/jinvk/lattice/dft/Pt/hcp/../../../eos.py", line 20, in <module>
+    main()
+  File "/home/jinvk/lattice/dft/Pt/hcp/../../../eos.py", line 17, in main
+    write(os.path.join("eos",f"{str}(int(factor*100))", "POSCAR"), scaled, format="vasp")
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 628, in write
+    return _write(filename, fd, format, io, images,
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/parallel.py", line 244, in new_func
+    return func(*args, **kwargs)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 661, in _write
+    fd = open_with_compression(filename, mode)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/ase/io/formats.py", line 551, in open_with_compression
+    return open(filename, mode)
+FileNotFoundError: [Errno 2] No such file or directory: "eos/<class 'str'>(int(factor*100))/POSCAR"

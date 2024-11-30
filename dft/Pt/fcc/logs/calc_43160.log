@@ -1,0 +1,13 @@
+SLURM_NTASKS: 24
+running vasp for ENCUT 400
+running vasp for ENCUT 425
+running vasp for ENCUT 450
+running vasp for ENCUT 475
+running vasp for ENCUT 500
+CUTOFF test completed
+entering cutoff/en400
+entering cutoff/en425
+entering cutoff/en450
+entering cutoff/en475
+entering cutoff/en500
+Results written to cutoff.out

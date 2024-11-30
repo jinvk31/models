@@ -1,0 +1,138 @@
+SLURM_NTASKS: 24
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/96' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/98' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/100' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/101' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/103' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/105' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+/var/spool/slurm/job43170/slurm_script: line 22: cd: Co/hcp: No such file or directory
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/95' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/96' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/98' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/100' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/101' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/103' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/105' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+/var/spool/slurm/job43170/slurm_script: line 22: cd: Pt/fcc: No such file or directory
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/95' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/96' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/98' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/100' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/101' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/103' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/105' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+/var/spool/slurm/job43170/slurm_script: line 22: cd: Pt/hcp: No such file or directory
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/95' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/96' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/98' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/100' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/101' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/103' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+mkdir: cannot create directory ‘eos’: Permission denied
+/var/spool/slurm/job43170/slurm_script: line 25: cd: relax: No such file or directory
+cp: target '../eos/105' is not a directory
+cp: cannot stat 'input0/INCAR.eos': No such file or directory
+copied KPOINTS, POTCAR, and INCAR file for eos calculation

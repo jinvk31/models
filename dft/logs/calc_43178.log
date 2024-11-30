@@ -1,0 +1,33 @@
+SLURM_NTASKS: 24
+entering Co/fcc ..
+calculating Co/fcc at 95 % volume
+calculating Co/fcc at 96 % volume
+calculating Co/fcc at 98 % volume
+calculating Co/fcc at 100 % volume
+calculating Co/fcc at 101 % volume
+calculating Co/fcc at 103 % volume
+calculating Co/fcc at 105 % volume
+entering Co/hcp ..
+calculating Co/hcp at 95 % volume
+calculating Co/hcp at 96 % volume
+calculating Co/hcp at 98 % volume
+calculating Co/hcp at 100 % volume
+calculating Co/hcp at 101 % volume
+calculating Co/hcp at 103 % volume
+calculating Co/hcp at 105 % volume
+entering Pt/fcc ..
+calculating Pt/fcc at 95 % volume
+calculating Pt/fcc at 96 % volume
+calculating Pt/fcc at 98 % volume
+calculating Pt/fcc at 100 % volume
+calculating Pt/fcc at 101 % volume
+calculating Pt/fcc at 103 % volume
+calculating Pt/fcc at 105 % volume
+entering Pt/hcp ..
+calculating Pt/hcp at 95 % volume
+calculating Pt/hcp at 96 % volume
+calculating Pt/hcp at 98 % volume
+calculating Pt/hcp at 100 % volume
+calculating Pt/hcp at 101 % volume
+calculating Pt/hcp at 103 % volume
+calculating Pt/hcp at 105 % volume
