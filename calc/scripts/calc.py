@@ -36,15 +36,16 @@ def main(path, models):
     a = conf[system][structure]['a']
     c = conf[system][structure]['c']
     if structure == 'fcc':
-        basis = [[0,a/2,a/2], [a/2,0,a/2], [a/2,a/2,0]]
+        lattices = [[0,a/2,a/2], [a/2,0,a/2], [a/2,a/2,0]]
+        basis = [[0,0,0]]
     if structure == 'hcp':
-        basis = [[a,0,0],[-a/2,a*(3**0.5)/2,0],[0,0,c]]
-   
+        lattices = [[a,0,0],[-a/2,a*(3**0.5)/2,0],[0,0,c]]
+        basis = [[0,0,0], [1/3,2/3,0.5]]
     df = pd.DataFrame()
 
     for model in models:
         calculator = SevenNetCalculator(model=os.path.join(path, f'{model}.pth'))
-        atoms = ase.Atoms(system, cell = basis, pbc = True, calculator = calculator)
+        atoms = ase.Atoms(system, position=basis, cell = lattices, pbc = True, calculator = calculator)
         relax_filter = UnitCellFilter(atoms, mask = [True]*6, constant_volume = False)
         relax(relax_filter, logfile=f'{system}-{structure}-{model}_relax.log', trajfile=f'{system}-{structure}-{model}_relax.traj')
         cell = atoms.get_cell() 
