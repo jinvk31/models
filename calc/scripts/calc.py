@@ -65,12 +65,12 @@ def main(path, models):
             atoms.set_cell(cell*f, scale_atoms=True)
             eos_filter = UnitCellFilter(atoms, mask = [False]*6, constant_volume = True) 
             relax(eos_filter, logfile=f'{system}-{structure}-{model}_fixVol.log', trajfile=f'{system}-{structure}-{model}_fixVol.traj')
-            atoms.get_potential_energy()
+            atoms.get_potential_energy(force_consistent = True)
             traj.write(atoms)
 
         configs = read(f'{system}-{structure}-{model}.traj@0:7')
         volumes=[co.get_volume() for co in configs]
-        energies=[co.get_potential_energy() for co in configs]
+        energies=[co.get_potential_energy(force_consistent = True) for co in configs]
 
         df[f'vol-{model}'] = volumes
         df[f'energy-{model}'] = energies
