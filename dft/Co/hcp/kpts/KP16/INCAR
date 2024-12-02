@@ -5,16 +5,13 @@
    INIWAV =      1    electr: 0-lowe 1-rand  2-diag
 
  Electronic Relaxation:
-   ENCUT  = 400     energy cutoff in eV
+   ENCUT  = 425.0     energy cutoff in eV
    PREC   = Accurate      normal | accurate
    ADDGRID = .FALSE.  (use fine grid)
 
-   NELM   =   100     number of ELM steps
+   NELM   =  100     number of ELM steps
    EDIFF  =  1E-06    energy stopping-criterion for ELM
-   # i fnot MD (force) > can put off tag
-   # depends phonon calculation 
-   # requiring high accuracy for force e-8 
-   LREAL  =  .F.      real-space projection (.FALSE., .TRUE., On, Auto)
+   LREAL  =  .FALSE.      real-space projection (.FALSE., .TRUE., On, Auto)
    ALGO   =  Normal     Normal, Fast, Very_Fast
    LWAVE  = .FALSE.
    LCHARG = .FALSE.
@@ -26,13 +23,10 @@
    ISIF   =     2     (1:force=y stress=trace only ions=y shape=n volume=n)
    ISYM   =     1     (1-use symmetry, 0-no symmetry)
  
- #-EDIFFG  - force + del Energy most cases will be force on atoms and cell 
- 
  DOS related values:
    ISMEAR =     0     (-1-Fermi, 1-Methfessel/Paxton)
    SIGMA  =     0.05   broadening in eV
-   # LORBIT = 11 magnetic props in OUTCAR should be on
-  # Zinc blend low sym relaxation > energy atom relaxation  emnergu 
+   LORBIT = 11 
 
 isif 4 phase transition dense 2/3
 Parallelization:

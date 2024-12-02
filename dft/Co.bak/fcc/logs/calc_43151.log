@@ -1,0 +1,7 @@
+SLURM_NTASKS: 24
+entering kpts/KP4
+entering kpts/KP6
+entering kpts/KP8
+entering kpts/KP10
+entering kpts/KP12
+Results written to kpoints.out

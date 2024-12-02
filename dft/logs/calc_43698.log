@@ -1,0 +1,31 @@
+SLURM_NTASKS: 24
+/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/bin/python: can't open file '/home/jinvk/lattice/dft/Co/hcp/../../../eos.py': [Errno 2] No such file or directory
+cp: cannot create regular file 'eos/95/POTCAR': Permission denied
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+calculating 95 % volume
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+cp: cannot create regular file 'eos/96/POTCAR': Permission denied
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+calculating 96 % volume
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+cp: cannot create regular file 'eos/98/POTCAR': Permission denied
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+calculating 98 % volume
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+cp: cannot create regular file 'eos/100/POTCAR': Permission denied
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+calculating 100 % volume
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+cp: cannot create regular file 'eos/101/POTCAR': Permission denied
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+calculating 101 % volume
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+cp: cannot create regular file 'eos/103/POTCAR': Permission denied
+copied KPOINTS, POTCAR, and INCAR file for eos calculation
+calculating 103 % volume
+slurmstepd: error: *** JOB 43698 ON n120 CANCELLED AT 2024-12-02T17:29:01 ***

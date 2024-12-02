@@ -5,16 +5,16 @@
    INIWAV =      1    electr: 0-lowe 1-rand  2-diag
 
  Electronic Relaxation:
-   ENCUT  = 400     energy cutoff in eV
+   ENCUT  = 425.0     energy cutoff in eV
    PREC   = Accurate      normal | accurate
    ADDGRID = .FALSE.  (use fine grid)
 
-   NELM   =   100     number of ELM steps
+   NELM   =  100     number of ELM steps
    EDIFF  =  1E-06    energy stopping-criterion for ELM
    LREAL  =  .FALSE.      real-space projection (.FALSE., .TRUE., On, Auto)
    ALGO   =  Normal     Normal, Fast, Very_Fast
-   LWAVE  = .TRUE.
-   LCHARG = .TRUE.
+   LWAVE  = .FALSE.
+   LCHARG = .FALSE.
 
  Ionic Relaxation:
    NSW    =     100       max number of geometry steps
@@ -26,10 +26,7 @@
  DOS related values:
    ISMEAR =     0     (-1-Fermi, 1-Methfessel/Paxton)
    SIGMA  =     0.05   broadening in eV
-   LORBIT = 11 magnetic props in OUTCAR should be on
-
-Parallelization:
-   NPAR = 4
+   LORBIT = 11 
 
 Magnetism:
    ISPIN = 2

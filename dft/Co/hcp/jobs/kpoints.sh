@@ -48,20 +48,20 @@ EOF
 
 
 
-# for i in "$@"; do
-#     dir=kpts/KP$i
-#     mkdir -p $dir
-#     cd $dir_0
-#     cp $incar $poscar $potcar ../$dir
-#     cd ../$dir
-#     kpt_grid=$(get_kpoints $i)
-#     write_kpoints "$kpt_grid"
-#     echo "implementing convergence test for kpoints $kpt_grid"
-#     mpiexec.hydra -np $SLURM_NTASKS /TGM/Apps/VASP/VASP_BIN/6.3.2/vasp.6.3.2.std.x >& stdout.x
-#     cd ../../
+for i in "$@"; do
+    dir=kpts/KP$i
+    mkdir -p $dir
+    cd $dir_0
+    cp $incar $poscar $potcar ../$dir
+    cd ../$dir
+    kpt_grid=$(get_kpoints $i)
+    write_kpoints "$kpt_grid"
+    echo "implementing convergence test for kpoints $kpt_grid"
+    mpiexec.hydra -np $SLURM_NTASKS /TGM/Apps/VASP/VASP_BIN/6.3.2/vasp.6.3.2.std.x >& stdout.x
+    cd ../../
 
-# done
-# echo "K-point convergence test completed"
+done
+echo "K-point convergence test completed"
 
 for i in "$@"; do
     kpt_grid=$(get_kpoints $i)

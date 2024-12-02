@@ -5,7 +5,7 @@
 #SBATCH --nodes=1                                # Number of nodes
 #SBATCH --ntasks=24                              # Total number of tasks (MPI processes)
 #SBATCH --time=04:00:00                          # Time limit hrs:min:sec
-#SBATCH --partition=loki3           # Partition name (update based on your cluster)
+#SBATCH --partition=loki3          # Partition name (update based on your cluster)
 
 echo "SLURM_NTASKS: $SLURM_NTASKS"
 
@@ -17,6 +17,7 @@ fi
 materials=("Co" "Pt")
 structures=("fcc" "hcp")
 
-for mat in "${materials[@]}"; do
-    /TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/bin/python calc.py $mat "fcc" 
+for struct in "${structures[@]}"; do
+/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/bin/python calc.py Co $struct > out
 done
+
