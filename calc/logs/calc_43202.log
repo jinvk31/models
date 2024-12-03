@@ -1,9 +1,0 @@
-SLURM_NTASKS: 24
-/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/sevenn/util.py:237: UserWarning: loss not in config, using default value mse
-  warnings.warn(
-/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/sevenn/util.py:237: UserWarning: loss_param not in config, using default value {}
-  warnings.warn(
-/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/sevenn/util.py:237: UserWarning: loss not in config, using default value mse
-  warnings.warn(
-/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/sevenn/util.py:237: UserWarning: loss_param not in config, using default value {}
-  warnings.warn(

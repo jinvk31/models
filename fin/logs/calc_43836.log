@@ -1,0 +1,17 @@
+SLURM_NTASKS: 28
+Traceback (most recent call last):
+  File "/home/jinvk/lattice/fin/fit.py", line 105, in <module>
+    main()   
+  File "/home/jinvk/lattice/fin/fit.py", line 95, in main
+    fcc_svn = pd.read_csv(f'data/svn_{system}-fcc.csv')
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/lib/python3.9/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/svn_Pt-fcc.csv'

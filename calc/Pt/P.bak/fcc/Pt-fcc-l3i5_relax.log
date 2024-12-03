@@ -1,4 +1,0 @@
-             Step     Time          Energy         fmax
-*Force-consistent energies used in optimization.
-SciPyFminCG:    0 20:50:11       -6.036466*       0.7111
-SciPyFminCG:    1 20:50:11       -6.046305*       0.0019

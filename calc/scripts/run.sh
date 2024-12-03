@@ -3,9 +3,9 @@
 #SBATCH --output=calc_%j.log      # Output file (%j will be replaced with job ID)
 #SBATCH --error=calc_%j.log        # Error file (%j will be replaced with job ID)
 #SBATCH --nodes=1                                # Number of nodes
-#SBATCH --ntasks=24                              # Total number of tasks (MPI processes)
+#SBATCH --ntasks=28                              # Total number of tasks (MPI processes)
 #SBATCH --time=04:00:00                          # Time limit hrs:min:sec
-#SBATCH --partition=loki3          # Partition name (update based on your cluster)
+#SBATCH --partition=loki4          # Partition name (update based on your cluster)
 
 echo "SLURM_NTASKS: $SLURM_NTASKS"
 
@@ -18,6 +18,6 @@ materials=("Co" "Pt")
 structures=("fcc" "hcp")
 
 for struct in "${structures[@]}"; do
-/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/bin/python calc.py Co $struct > out
+/TGM/Apps/ANACONDA/2022.05/envs/pub_sevenn/bin/python calc.py Co $struct > co_out
 done
 

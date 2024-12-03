@@ -1,6 +1,6 @@
  vasp.6.3.2 27Jun22 (build Aug 12 2022 00:53:59) complex                        
   
- executed on               tv2STD date 2024.11.30  17:15:43
+ executed on               tv2STD date 2024.12.03  02:19:39
  running   24 mpi-ranks, with    1 threads/rank
  distrk:  each k-point on   24 cores,    1 groups
  distr:  one band on NCORE=   1 cores,   24 groups
@@ -830,7 +830,7 @@ Automatic generation of k-mesh.
    one-center:         31. kBytes
    wavefun   :        860. kBytes
  
-     INWAV:  cpu time      0.0000: real time      0.0001
+     INWAV:  cpu time      0.0000: real time      0.0004
  Broyden mixing: mesh for mixing (old mesh)
    NGX =  9   NGY =  9   NGZ = 17
   (NGX  = 40   NGY  = 40   NGZ  = 72)
@@ -855,18 +855,18 @@ Automatic generation of k-mesh.
  Maximum number of real-space cells 3x 3x 2
  Maximum number of reciprocal cells 2x 2x 4
 
-    FEWALD:  cpu time      0.0015: real time      0.0015
+    FEWALD:  cpu time      0.0014: real time      0.0014
 
 
 --------------------------------------- Iteration      1(   1)  ---------------------------------------
 
 
-    POTLOK:  cpu time      0.0037: real time      0.0038
+    POTLOK:  cpu time      0.0038: real time      0.0039
     SETDIJ:  cpu time      0.0022: real time      0.0022
-     EDDAV:  cpu time      0.3138: real time      0.3154
-       DOS:  cpu time      0.0005: real time      0.0005
+     EDDAV:  cpu time      0.3096: real time      0.3117
+       DOS:  cpu time      0.0005: real time      0.0006
     --------------------------------------------
-      LOOP:  cpu time      0.3203: real time      0.3220
+      LOOP:  cpu time      0.3161: real time      0.3183
 
  eigenvalue-minimisations  :  3360
  total energy-change (2. order) : 0.1439285E+03  (-0.2314522E+04)
@@ -899,10 +899,10 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   2)  ---------------------------------------
 
 
-     EDDAV:  cpu time      0.3518: real time      0.3542
+     EDDAV:  cpu time      0.3406: real time      0.3431
        DOS:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.3522: real time      0.3546
+      LOOP:  cpu time      0.3409: real time      0.3435
 
  eigenvalue-minimisations  :  3600
  total energy-change (2. order) :-0.1553203E+03  (-0.1545828E+03)
@@ -935,10 +935,10 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   3)  ---------------------------------------
 
 
-     EDDAV:  cpu time      0.4467: real time      0.4489
+     EDDAV:  cpu time      0.4400: real time      0.4425
        DOS:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.4471: real time      0.4493
+      LOOP:  cpu time      0.4403: real time      0.4429
 
  eigenvalue-minimisations  :  4200
  total energy-change (2. order) :-0.1348661E+01  (-0.1340809E+01)
@@ -971,10 +971,10 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   4)  ---------------------------------------
 
 
-     EDDAV:  cpu time      0.6237: real time      0.6265
+     EDDAV:  cpu time      0.6166: real time      0.6201
        DOS:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.6240: real time      0.6269
+      LOOP:  cpu time      0.6169: real time      0.6205
 
  eigenvalue-minimisations  :  5160
  total energy-change (2. order) :-0.4624171E-02  (-0.4623871E-02)
@@ -1007,12 +1007,12 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   5)  ---------------------------------------
 
 
-     EDDAV:  cpu time      0.5054: real time      0.5078
+     EDDAV:  cpu time      0.4975: real time      0.5005
        DOS:  cpu time      0.0004: real time      0.0004
     CHARGE:  cpu time      0.0237: real time      0.0238
     MIXING:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.5298: real time      0.5323
+      LOOP:  cpu time      0.5220: real time      0.5251
 
  eigenvalue-minimisations  :  4464
  total energy-change (2. order) :-0.8429497E-06  (-0.8408592E-06)
@@ -1051,13 +1051,13 @@ Automatic generation of k-mesh.
 
 
     POTLOK:  cpu time      0.0035: real time      0.0037
-    SETDIJ:  cpu time      0.0021: real time      0.0021
-     EDDAV:  cpu time      0.3280: real time      0.3297
+    SETDIJ:  cpu time      0.0020: real time      0.0020
+     EDDAV:  cpu time      0.3219: real time      0.3237
        DOS:  cpu time      0.0004: real time      0.0004
-    CHARGE:  cpu time      0.0230: real time      0.0230
+    CHARGE:  cpu time      0.0226: real time      0.0227
     MIXING:  cpu time      0.0003: real time      0.0003
     --------------------------------------------
-      LOOP:  cpu time      0.3572: real time      0.3592
+      LOOP:  cpu time      0.3507: real time      0.3528
 
  eigenvalue-minimisations  :  3480
  total energy-change (2. order) : 0.6701241E+00  (-0.2595634E+00)
@@ -1101,12 +1101,12 @@ Automatic generation of k-mesh.
 
     POTLOK:  cpu time      0.0034: real time      0.0036
     SETDIJ:  cpu time      0.0020: real time      0.0020
-     EDDAV:  cpu time      0.5030: real time      0.5052
+     EDDAV:  cpu time      0.4933: real time      0.4961
        DOS:  cpu time      0.0004: real time      0.0004
-    CHARGE:  cpu time      0.0227: real time      0.0228
-    MIXING:  cpu time      0.0003: real time      0.0003
+    CHARGE:  cpu time      0.0223: real time      0.0224
+    MIXING:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.5318: real time      0.5343
+      LOOP:  cpu time      0.5217: real time      0.5248
 
  eigenvalue-minimisations  :  4632
  total energy-change (2. order) : 0.3398303E-01  (-0.1505538E-01)
@@ -1150,12 +1150,12 @@ Automatic generation of k-mesh.
 
     POTLOK:  cpu time      0.0034: real time      0.0036
     SETDIJ:  cpu time      0.0019: real time      0.0019
-     EDDAV:  cpu time      0.3374: real time      0.3390
+     EDDAV:  cpu time      0.3328: real time      0.3346
        DOS:  cpu time      0.0004: real time      0.0004
-    CHARGE:  cpu time      0.0225: real time      0.0226
-    MIXING:  cpu time      0.0003: real time      0.0003
+    CHARGE:  cpu time      0.0223: real time      0.0223
+    MIXING:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.3659: real time      0.3678
+      LOOP:  cpu time      0.3611: real time      0.3631
 
  eigenvalue-minimisations  :  3576
  total energy-change (2. order) : 0.2326840E-02  (-0.7280411E-03)
@@ -1197,14 +1197,14 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(   9)  ---------------------------------------
 
 
-    POTLOK:  cpu time      0.0032: real time      0.0034
+    POTLOK:  cpu time      0.0033: real time      0.0034
     SETDIJ:  cpu time      0.0019: real time      0.0019
-     EDDAV:  cpu time      0.5159: real time      0.5182
+     EDDAV:  cpu time      0.5037: real time      0.5065
        DOS:  cpu time      0.0004: real time      0.0004
-    CHARGE:  cpu time      0.0232: real time      0.0233
+    CHARGE:  cpu time      0.0229: real time      0.0230
     MIXING:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.5450: real time      0.5476
+      LOOP:  cpu time      0.5325: real time      0.5356
 
  eigenvalue-minimisations  :  4512
  total energy-change (2. order) : 0.1761277E-03  (-0.2438552E-04)
@@ -1247,13 +1247,13 @@ Automatic generation of k-mesh.
 
 
     POTLOK:  cpu time      0.0034: real time      0.0036
-    SETDIJ:  cpu time      0.0021: real time      0.0021
-     EDDAV:  cpu time      0.4223: real time      0.4242
+    SETDIJ:  cpu time      0.0020: real time      0.0020
+     EDDAV:  cpu time      0.4159: real time      0.4181
        DOS:  cpu time      0.0004: real time      0.0004
-    CHARGE:  cpu time      0.0226: real time      0.0227
-    MIXING:  cpu time      0.0004: real time      0.0003
+    CHARGE:  cpu time      0.0223: real time      0.0224
+    MIXING:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.4511: real time      0.4533
+      LOOP:  cpu time      0.4444: real time      0.4468
 
  eigenvalue-minimisations  :  4032
  total energy-change (2. order) :-0.1390701E-04  (-0.1054764E-05)
@@ -1295,12 +1295,12 @@ Automatic generation of k-mesh.
 --------------------------------------- Iteration      1(  11)  ---------------------------------------
 
 
-    POTLOK:  cpu time      0.0033: real time      0.0035
+    POTLOK:  cpu time      0.0033: real time      0.0034
     SETDIJ:  cpu time      0.0019: real time      0.0019
-     EDDAV:  cpu time      0.3805: real time      0.3823
+     EDDAV:  cpu time      0.3718: real time      0.3740
        DOS:  cpu time      0.0004: real time      0.0004
     --------------------------------------------
-      LOOP:  cpu time      0.3860: real time      0.3880
+      LOOP:  cpu time      0.3773: real time      0.3797
 
  eigenvalue-minimisations  :  3696
  total energy-change (2. order) : 0.4413805E-06  (-0.1146776E-06)
@@ -3294,10 +3294,10 @@ Automatic generation of k-mesh.
 --------------------------------------------------
 tot          0.677  12.156  14.134  26.967
  
-    CHARGE:  cpu time      0.0224: real time      0.0225
+    CHARGE:  cpu time      0.0221: real time      0.0222
     FORLOC:  cpu time      0.0002: real time      0.0002
     FORNL :  cpu time      0.0160: real time      0.0161
-    STRESS:  cpu time      0.1765: real time      0.1771
+    STRESS:  cpu time      0.1786: real time      0.1793
     FORCOR:  cpu time      0.0030: real time      0.0030
     FORHAR:  cpu time      0.0006: real time      0.0006
     MIXING:  cpu time      0.0002: real time      0.0002
@@ -3366,7 +3366,7 @@ tot          0.677  12.156  14.134  26.967
 --------------------------------------------------------------------------------------------------------
 
 
-    POTLOK:  cpu time      0.0055: real time      0.0056
+    POTLOK:  cpu time      0.0055: real time      0.0055
 
 
 --------------------------------------------------------------------------------------------------------
@@ -3380,7 +3380,7 @@ tot          0.677  12.156  14.134  26.967
   
  reached required accuracy - stopping structural energy minimisation
  writing wavefunctions
-     LOOP+:  cpu time      5.2769: real time      5.4259
+     LOOP+:  cpu time      5.1922: real time      5.3223
     4ORBIT:  cpu time      0.0000: real time      0.0000
 
 
@@ -3410,14 +3410,14 @@ tot          0.677  12.156  14.134  26.967
  General timing and accounting informations for this job:
  ========================================================
   
-                  Total CPU time used (sec):        6.214
-                            User time (sec):        5.714
-                          System time (sec):        0.500
-                         Elapsed time (sec):        7.767
+                  Total CPU time used (sec):        6.118
+                            User time (sec):        5.609
+                          System time (sec):        0.509
+                         Elapsed time (sec):        7.669
   
-                   Maximum memory used (kb):      239196.
+                   Maximum memory used (kb):      227392.
                    Average memory used (kb):          N/A
   
-                          Minor page faults:        29638
-                          Major page faults:           80
-                 Voluntary context switches:         2215
+                          Minor page faults:        29731
+                          Major page faults:           69
+                 Voluntary context switches:         2740

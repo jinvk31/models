@@ -1,10 +1,7 @@
-import ase
 from ase.build import bulk
-from ase.io import read
 from ase.io.trajectory import Trajectory
 from ase.optimize.sciopt import SciPyFminCG
 from ase.constraints import UnitCellFilter
-from ase.optimize import fire, BFGS
 
 from sevenn.sevennet_calculator import SevenNetCalculator
 
@@ -39,12 +36,6 @@ def main(path, models):
     
     a = conf[system][structure]['a']
     c = conf[system][structure]['c']
-    if structure == 'fcc':
-        lattices = [[0,a/2,a/2], [a/2,0,a/2], [a/2,a/2,0]]
-        basis = [[0,0,0]]
-    if structure == 'hcp':
-        lattices = [[a,0,0],[-a/2,a*(3**0.5)/2,0],[0,0,c]]
-        basis = [[0,0,0], [1/3 * a, 1/3 * a* 3**0.5, 1/2 * c]]
     df = pd.DataFrame()
 
     for model in models:
@@ -52,7 +43,6 @@ def main(path, models):
         calculator = SevenNetCalculator(model=os.path.join(path, f'{model}.pth'))
         atoms = bulk(name=system, crystalstructure=structure, a=a, c=c)
         atoms.calc = calculator
-        # atoms = ase.Atoms(system, positions = basis, cell = lattices, pbc = True, calculator = calculator)
        
         print('Relaxing the structure, constant volume = False, 6 components of the tensor is relaxed\n')
         relax_filter = UnitCellFilter(atoms, mask = [True]*6, constant_volume = False)
@@ -60,17 +50,23 @@ def main(path, models):
         print('Relaxation done\n')
         cell = atoms.get_cell() 
         traj = Trajectory(f'{system}-{structure}-{model}.traj', 'w')
+        volumes = []
+        energies = [] 
         
-        for f in np.linspace(0.95, 1.05, 7):
-            atoms.set_cell(cell*f, scale_atoms=True)
-            eos_filter = UnitCellFilter(atoms, mask = [False]*6, constant_volume = True) 
+        for f in np.linspace(0.95, 1.05, 11):
+            atoms0 = copy.deepcopy(atoms)
+            atoms0.set_cell(cell*f, scale_atoms=True)
+            eos_filter = UnitCellFilter(atoms0, mask = [False]*6, constant_volume = True) 
             relax(eos_filter, logfile=f'{system}-{structure}-{model}_fixVol.log', trajfile=f'{system}-{structure}-{model}_fixVol.traj')
-            atoms.get_potential_energy(force_consistent = True)
-            traj.write(atoms)
-
-        configs = read(f'{system}-{structure}-{model}.traj@0:7')
-        volumes=[co.get_volume() for co in configs]
-        energies=[co.get_potential_energy(force_consistent = True) for co in configs]
+            atoms0.get_potential_energy(force_consistent = True)
+            traj.write(atoms0)
+            
+            if structure == 'hcp':
+                volumes.append(atoms0.get_volume()/2)
+                energies.append(atoms0.get_potential_energy(force_consistent=True)/2)
+            else:
+                volumes.append(atoms0.get_volume())
+                energies.append(atoms0.get_potential_energy(force_consistent=True))
 
         df[f'vol-{model}'] = volumes
         df[f'energy-{model}'] = energies
@@ -79,5 +75,5 @@ def main(path, models):
 
 if __name__ == '__main__':
     path = 'models'
-    models = ['l3i3','l3i5','l4i3']
+    models = ['l3i3','l3i5','l4i3', 'l2i5']
     main(path, models)
